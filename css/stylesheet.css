@@ -4,13 +4,46 @@
 }
 
 body{
-    background-color:rgb(104, 0, 0);
+    background-color:white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
 }
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 24px;
+    font-style: italic;
+}
+
+h3{
+    font-size: 22px;
+    color: blue;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
 
 /* Nav Bar */
 
 .navbar{
-    background-color: white;
+    background-color: black;
 }
 
 .navbar ul{
@@ -26,14 +59,14 @@ body{
     display: block;
     padding: 1em;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 16;
     transition: .5s;
 }
 
 .navbar ul li a:hover{
-    background-color: rgb(36, 36, 36);
-    color: white;
+    background-color: rgb(194, 194, 194);
+    color: black;
 }
 
 /* Main Section */
@@ -43,12 +76,58 @@ main{
     margin: 0 auto;
 }
 
+main img{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 30 auto 30;
+}
+
 /* Footer Nav */
 
 footer{
     display: grid;
     grid-template-columns: auto 1fr auto;
 }
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    border: solid 1px;
+    background-color: white;
+    border-right:1px solid transparent;
+    border-left:1px solid transparent;
+}
+
+footer ul{
+    display: flex;
+    justify-content: left;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 16;
+    transition: .5s;
+}
+
+footer ul li a:hover{
+    background-color: rgb(36, 36, 36);
+    color: white;
+} */
 
 /* Old Main Body */
 /* #main-container{
