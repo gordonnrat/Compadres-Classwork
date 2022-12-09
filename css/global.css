@@ -21,6 +21,7 @@ body{
 .navbar ul{
     display: flex;
     justify-content: right;
+    font-size: 16px;
 }
 
 .logo{
@@ -40,7 +41,6 @@ body{
     padding: 1em;
     text-decoration: none;
     color: white;
-    font-size: 20;
     transition: .5s;
 }
 
